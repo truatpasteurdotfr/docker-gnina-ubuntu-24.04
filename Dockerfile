@@ -1,7 +1,7 @@
 # Recommended build process
 
 #get CUDA 
-FROM nvidia/cuda:12.8.2-devel-ubuntu24.04
+FROM nvidia/cuda:12.8.2-cudnn-devel-ubuntu24.04
 
 # get packages 
 WORKDIR /root
